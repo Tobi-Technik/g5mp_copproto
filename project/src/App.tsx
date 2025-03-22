@@ -23,16 +23,18 @@ function App() {
     date: new Date().toLocaleDateString('de-DE'),
     reminderText: 'Denkt an eine regelmäßige Aktivität im Dienst. Bei anhaltend geringer Aktivität können Sanktionen erfolgen und Beförderungen sind nur bei ausreichendem Engagement möglich. Zudem gehen alle Polizisten um 19 Uhr zur Besprechung außer Dienst, mit Ausnahme eines Verantwortlichen für die Türen.',
     topics: [
+      'während einer Verfolgung sollte man sicher und verhältnismäßig vorgehen, unnötige Kollisionen vermeiden und keine riskanten Manöver wie rücksichtsloses Rammen oder Pitten durchführen.',
+      'schießen auf Reifen mit einem Taser muss vorab deutlich angekündigt werden'
     ],
     wishes: [],
     departmentChanges: [],
-    promotions: [],
+    promotions: ['Matthias Pritt | Leutnant des Sherrifs > Captain des Sherrifs'],
     demotions: [],
     dismissals: [],
     medals: [],
     signature: {
-      name: '',
-      rank: '',
+      name: 'Tobias Poleco',
+      rank: 'Captain der DOA',
       department: 'Police Leadership'
     }
   });
@@ -62,7 +64,7 @@ function App() {
 
   const generateDiscordText = () => {
     const text = `**Protokoll der Polizeibesprechung vom ${protocol.date}**
- [ @Police  ]
+@police [ :police_officer: Police  ]
 
 **Erinnerung-Spielzeit:**
 ${protocol.reminderText}

@@ -23,18 +23,16 @@ function App() {
     date: new Date().toLocaleDateString('de-DE'),
     reminderText: 'Denkt an eine regelmäßige Aktivität im Dienst. Bei anhaltend geringer Aktivität können Sanktionen erfolgen und Beförderungen sind nur bei ausreichendem Engagement möglich. Zudem gehen alle Polizisten um 19 Uhr zur Besprechung außer Dienst, mit Ausnahme eines Verantwortlichen für die Türen.',
     topics: [
-      'während einer Verfolgung sollte man sicher und verhältnismäßig vorgehen, unnötige Kollisionen vermeiden und keine riskanten Manöver wie rücksichtsloses Rammen oder Pitten durchführen.',
-      'schießen auf Reifen mit einem Taser muss vorab deutlich angekündigt werden'
     ],
     wishes: [],
     departmentChanges: [],
-    promotions: ['Matthias Pritt | Leutnant des Sherrifs > Captain des Sherrifs'],
+    promotions: [],
     demotions: [],
     dismissals: [],
     medals: [],
     signature: {
-      name: 'Tobias Poleco',
-      rank: 'Captain der DOA',
+      name: '',
+      rank: '',
       department: 'Police Leadership'
     }
   });
